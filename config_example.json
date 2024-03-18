@@ -1,0 +1,19 @@
+{
+	"duration" : 20,
+    "overlap" : 0.5,
+    "desired_fs" : 24000,
+    "channel" : 0,
+	"color": true, 
+	"log": false,
+	
+	"nfft" : 2048,
+    "win_len" : 2048,
+    "hop_ratio" : 8,
+	
+	"normalization_style": "noisy",
+
+    "wavs_folder" : "path_to_the_wavs",
+    "dataset_folder" : "path_to_dataset_folder",
+	
+	"annotations_file": "path_to_annotations.txt"
+}
