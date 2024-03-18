@@ -72,7 +72,7 @@ A folder names predictions/labels under the dataset folder will be created, but 
 space.
 
 
-# Train models 
+## Train models 
 To train models, you will have to: 
 1. Manually create an annotations file using Raven (and set the correct path in the config.json file)
 2. Create a dataset folder, and create the subfolders: "train", "valid", "images", "labels"
@@ -84,13 +84,24 @@ and valid folders.
 7. Run the retraining.py script and pass the model_example.yaml file path when prompt with the question
 
 
-# Active Learning 
+## Active Learning 
 1. Create an unlabeled pool with an associated config.json file. This means create a dataset_folder with the necessary
 subfolders, and one subfolder called active_learning
 2. Run the create_long_spectrograms.py script for the unlabeled pool config (this will speed up things)
 3. Run the active_learning.py script, it will guide you through the steps with an interactive console
 
 
-# Other (maybe) useful scripts
+## Other (maybe) useful scripts
 * cluster.py -> Cluster manual (or predictions) from one location 
 * predict.py -> Predict the events for one dataset
+
+
+
+## References
+This work includes some scripts from to extract the CAE features. 
+https://gitlab.lis-lab.fr/paul.best/repertoire_embedder
+> Best P, Paris S, Glotin H, Marxer R (2023) Deep audio embeddings for vocalisation clustering. PLOS ONE 18(7): e0283396. https://doi.org/10.1371/journal.pone.0283396
+
+This repository includes the filterbank.py script. Copyright (c) 2017 Jan Schlüter
+https://github.com/f0k/ismir2015
+> "Exploring Data Augmentation for Improved Singing Voice Detection with Neural Networks" by Jan Schlüter and Thomas Grill at the 16th International Society for Music Information Retrieval Conference (ISMIR 2015)

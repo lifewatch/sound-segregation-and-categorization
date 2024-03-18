@@ -1,4 +1,6 @@
 # Author : Jan Schlüter
+# Copyright (c) 2017 Jan Schlüter
+# https://github.com/f0k/ismir2015
 from torch import nn
 import torch
 import numpy as np
