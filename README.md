@@ -4,9 +4,9 @@ This script collection is intended for re-use of the method presented in:
 
 Parcerisas, C.; Schall, E.; Te Velde, K.; Botteldooren, D.; Devos, P.; Debusschere, E.. 
 Machine learning for efficient segregation and labeling of potential biological sounds in long-term underwater 
-recordings. Submitted to Frontiers in Remote Sensing (2024).
+recordings. Submitted to Frontiers in Remote Sensing (2024). https://doi.org/10.3389/frsen.2024.1390687
 
-All the data and the configuration files necessary to run the outputs can be found on IMIS (XXXX)
+All the data and the configuration files necessary to run the outputs can be found on IMIS https://www.vliz.be/nl/imis?module=dataset&dasid=8543 
 
 The scripts are ready to be used in other locations. All the scripts are organized around "datasets", which basically 
 means a folder with these subfolders: 
