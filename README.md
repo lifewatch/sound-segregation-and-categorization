@@ -99,10 +99,10 @@ subfolders, and one subfolder called active_learning
 ## Pre-trained models 
 | Name               | Pretraining data            | Hours     | Link to pretrained weights   | 
 | ------------------ | --------------------------- | --------- | ---------------------------- | 
-| Model Final (MF)   | All annotated BPNS data     | 23.6h    | [Download](https://mda.vliz.be/directlink.php?fid=VLIZ_00000776_6662f3d66cec6504567484) |
-| Model Base (MB)    | Initial training set        | 1.5h | [Download](https://mda.vliz.be/directlink.php?fid=VLIZ_00000776_6672fdd5df54b869504488)  |
-| Active Learning (AL)    | Intial training set + 10 actively selected wavs  | 2.3h | [Download](https://mda.vliz.be/directlink.php?fid=VLIZ_00000776_6672fdd5df4ee563984337)  |
-| Random Selection (RS)     | Intial training set + 10 randomly selected wavs  | 2.3h | [Download](	https://mda.vliz.be/directlink.php?fid=VLIZ_00000776_6672fdd5df553297088456)  |
+| Model Final (MF)   | All annotated BPNS data     | 23.6h    | [Download](https://zenodo.org/records/21105848/files/final_model.pt?download=1) |
+| Model Base (MB)    | Initial training set        | 1.5h | [Download](https://zenodo.org/records/21105848/files/MB_0_0.pt?download=1)  |
+| Active Learning (AL)    | Intial training set + 10 actively selected wavs  | 2.3h | [Download](https://zenodo.org/records/21105848/files/AL_0_4.pt?download=1)  |
+| Random Selection (RS)     | Intial training set + 10 randomly selected wavs  | 2.3h | [Download](https://zenodo.org/records/21105848/files/RS_0_4.pt?download=1)  |
 
 If you're interested in weights of other of the trained models (2 more models per row available), please contact clea.parcerisas@vliz.be
 
